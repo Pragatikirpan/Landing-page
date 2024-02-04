@@ -1,0 +1,619 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: sticky
+}
+
+.navbar {
+    height: 6rem;
+    margin-top: 5px;
+    display: flex;
+    position: sticky;
+    overflow: hidden;
+}
+
+.logo img {
+    margin-left: 11rem;
+    margin-top: 20px;
+}
+
+.nav-links {
+    float: left;
+    display: block;
+}
+
+.nav-links ul {
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    list-style: none;
+    text-decoration: none;
+    margin: 15px;
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-links li a:hover {
+    color: #8f0fd4;
+    transition: 0.5s;
+}
+
+.flag {
+    border: 0.5px solid black;
+    height: 28px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+.flag img {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#drop {
+    height: 15px;
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+
+.btns {
+    margin-left: 15rem;
+    display: flex;
+    margin-top: 20px;
+}
+
+.login {
+    height: 35px;
+    width: 95px;
+}
+
+.login button {
+    color: black;
+    background-color: #fff;
+    height: 34px;
+    width: 94px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.login button:hover {
+    color: #8f0fd4;
+}
+
+.login button a {
+    text-decoration: none;
+}
+
+.get-start {
+    height: 80px;
+    width: 90px;
+}
+
+.get-start button {
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    width: 94px;
+    font-size: 15px;
+}
+
+.get-start button:hover {
+    background: rgb(76, 76, 249);
+    color: #fff;
+}
+
+
+/* end of nav */
+
+.flex {
+    margin-top: 80px;
+    display: flex;
+}
+
+.flex img {
+    height: 400px;
+    margin-left: 130px;
+}
+
+.flex h1 {
+    font-size: 60px;
+    margin-left: 150px;
+}
+
+.flex h1 span {
+    color: #8f0fd4;
+}
+
+.flex p {
+    margin-left: 150px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.btns2 {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.get-started {
+    height: 48px;
+    width: 95px;
+}
+
+.get-started button {
+    color: #fff;
+    background-color: #000;
+    height: 49px;
+    width: 94px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.day {
+    height: 48px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.day button {
+    color: #000;
+    background-color: #ffffff;
+    height: 45px;
+    width: 180px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+.day button:hover {
+    background-color: #283fed;
+    color: #fff;
+}
+
+.righ {
+    margin-left: 400px;
+}
+
+.righ img {
+    height: 500px;
+}
+
+.flex2 {
+    margin-top: 50px;
+}
+
+.sectiom2 {
+    margin-left: 350px;
+}
+
+.sectiom2 h1 {
+    font-size: 70px;
+}
+
+.sectiom2 p {
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.leader-section {
+    display: flex;
+    justify-content: center;
+}
+
+.leader-section img {
+    height: 300px;
+    margin: 5px;
+}
+
+.container2 {
+    background-color: #3d3d3d;
+    height: 300px;
+}
+
+.material {
+    margin-top: 25px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.material h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.images2 {
+    display: flex;
+    margin: 30px 150px;
+}
+
+.images2 img {
+    margin: 50px;
+}
+
+.container-3 {
+    margin-top: 100px;
+}
+
+.first-item h2 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.first-item p {
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.first-child {
+    margin-top: 5rem;
+    display: flex;
+}
+
+.first-child img {
+    height: 300px;
+    margin-left: 10rem;
+}
+
+.first-child h2 {
+    margin-left: 10rem;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content-of-first-child li {
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+
+/* second child */
+
+.second-child {
+    margin-top: 5rem;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.second-child h2 {
+    margin-left: 10rem;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content-of-second-child li {
+    font-size: 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.second-child img {
+    height: 300px;
+    margin-left: 10rem;
+}
+
+
+/* end of container 3 */
+
+.container-4 {
+    border: 1px solid black;
+    height: 25rem;
+    margin: 2px;
+    background: #521dd9;
+}
+
+.material {
+    display: flex;
+}
+
+.material img {
+    margin: 100px 80px
+}
+
+.material h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0px 80px;
+    font-size: 30px;
+}
+
+.material h2 span {
+    color: yellow;
+    font-size: 80px;
+}
+
+.user {
+    display: flex;
+    margin-left: 40rem;
+}
+
+.user img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user p {
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+/* end of .container-4 */
+
+.container-5 {
+    margin-top: 80px;
+}
+
+.title-of-c5 {
+    justify-content: center;
+    align-items: center;
+}
+
+.title-of-c5 h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.title-of-c5 p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.boxes {
+    background-color: #f5f5f5;
+    margin: 50px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 20rem;
+    width: 25rem;
+    margin: 10px;
+}
+
+.box h2 {
+    margin-bottom: 10px;
+}
+
+.box button {
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    background: #fff;
+}
+
+.box button a {
+    color: #021bde;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+
+/* end of container-5 */
+
+.container-6 {
+    margin-top: 40px;
+}
+
+.c6-content h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.c6-content p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btns3 {
+    display: flex;
+}
+
+.btns3 a {
+    color: #000;
+    border-bottom: 1px solid black;
+    margin: 50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.btns3 a:hover {
+    border-bottom: 3px solid black;
+}
+
+.c6-content2 {
+    display: flex;
+}
+
+.content-of-c6 {
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 8rem;
+    width: 25rem;
+}
+
+.content-of-c6 h2 {
+    font-size: 30px;
+}
+
+.content-of-c6 p {
+    font-size: 20px;
+}
+
+.content-of-c6 button {
+    height: 45px;
+    width: 120px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 25px;
+}
+
+.content-of-c6 button:hover {
+    background-color: #021bde;
+}
+
+.crcl1 img {
+    height: 400px;
+    margin-left: 25rem;
+}
+
+
+/* end of container  6 */
+
+.container-7 {
+    margin-top: 80px;
+    background-color: #8f0fd4;
+    height: 28rem;
+}
+
+.content-of-c7 {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-of-c7 h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.container-7 p {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.content-of-c7 button {
+    height: 50px;
+    width: 150px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin: 40px 700px;
+}
+
+.content-of-c7 button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.content-of-c7 a {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.container-8 {
+    height: 32rem;
+    background-color: black;
+    display: flex;
+}
+
+.list-1 ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.list-1 ul {
+    margin-left: 100px;
+}
+
+.list-1 li {
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.list-2 ul li a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.list-2 ul {
+    margin-left: 100px;
+}
+
+.list-2 li {
+    margin-bottom: 25px;
+    margin-left: 200px;
+}
+
+.social {
+    margin-left: 350px;
+}
+
+.social p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.social-logos {
+    display: flex;
+}
+
+.social-logos img {
+    height: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.social-logos:hover {
+    cursor: pointer;
+}
+
+.out {
+    display: grid;
+}
+
+.out img {
+    height: 100px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.out select {
+    height: 35px;
+    width: 200px;
+    margin-top: 20px;
+    color: #000000;
+}
